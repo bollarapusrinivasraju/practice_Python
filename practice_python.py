@@ -22,3 +22,16 @@ print(b.shape)
 a.dtype
 print(a.dtype)
 print(b.dtype)
+
+print(a.dtype)
+#  get the size
+print(a.itemsize)
+# compressing the data type
+a = np.array([1,2,3], dtype = 'int32')
+b = np.array([4,5,6])
+print(a.dtype)
+#  get the size
+print(a.itemsize)
+print(b.itemsize)
+# get total size
+print(a.nbytes)
