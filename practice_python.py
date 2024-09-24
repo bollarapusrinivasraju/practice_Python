@@ -48,3 +48,25 @@ print(a[1,5])
 print(a[0, :])
 print(a[1, :])
 
+
+
+# get a specifi column
+# print(a[:, 0])
+# print(a[:, 1])
+# print(a[:, 2])
+
+# start index, end index, stepsize
+# print(a[0,1:6])
+# print(a[0,1:6:2])
+# print(a[0,-6:-1])
+# print(a[0,-6:-1:2])
+
+# replace the value in the list
+print(a[1,5])
+a[1,5] = 20
+print(a[1,5])
+print(a[:,2])
+a[:,2] = 100
+print(a[:, 2])
+a[:,2] = [1,2]
+print(a[:,2])
